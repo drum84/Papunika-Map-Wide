@@ -1,0 +1,23 @@
+// ==UserScript==
+// @name         Papunika Map Wide
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Wider Map for Papunika
+// @author       You
+// @match        https://papunika.com/world/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=papunika.com
+// @grant        none
+// @require      http://code.jquery.com/jquery-3.6.0.min.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    $('.container').attr('style','max-width: 100%')
+    $('.loa-map-wrapper').attr('style','height: 865px')
+    $('.nk-navbar').attr('style','padding: 1px')
+    $('.nk-contacts-top').attr('style','display: none')
+    $('.nk-gap-2').attr('style','height: 1px')
+    $('.nk-copyright').attr('style','display: none')
+    $('.nk-breadcrumbs').attr('style','display: none')
+
+})();
