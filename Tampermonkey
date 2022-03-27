@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Papunika Map Wide
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Wider Map for Papunika
 // @author       You
 // @match        https://papunika.com/world/*
@@ -13,6 +13,8 @@
 (function() {
     'use strict';
     $('.container').attr('style','max-width: 100%')
+    $('.content-area.container').attr('style','padding-left: 1px')
+    $('.content-area.container').attr('style','padding-right: 1px')
     $('.loa-map-wrapper').attr('style','height: 865px')
     $('.nk-navbar').attr('style','padding: 1px')
     $('.nk-contacts-top').attr('style','display: none')
