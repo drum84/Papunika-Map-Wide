@@ -12,14 +12,14 @@
 
 (function() {
     'use strict';
-    $('.container').attr('style','max-width: 100%')
-    $('.content-area.container').attr('style','padding-left: 1px')
-    $('.content-area.container').attr('style','padding-right: 1px')
-    $('.loa-map-wrapper').attr('style','height: 865px')
-    $('.nk-navbar').attr('style','padding: 1px')
-    $('.nk-contacts-top').attr('style','display: none')
-    $('.nk-gap-2').attr('style','height: 1px')
-    $('.nk-copyright').attr('style','display: none')
-    $('.nk-breadcrumbs').attr('style','display: none')
+    $('.container').attr('style','max-width: 100%');
+    $('.content-area.container').attr('style','padding: 0');
+    $('.loa-map-wrapper').attr('style','height: 865px');
+    $('.nk-navbar').attr('style','padding: 1px');
+    $('.nk-contacts-top').attr('style','display: none');
+    $('.nk-gap-2').attr('style','height: 1px');
+    $('.nk-copyright').attr('style','display: none');
+    $('.nk-breadcrumbs').attr('style','display: none');
+
 
 })();
